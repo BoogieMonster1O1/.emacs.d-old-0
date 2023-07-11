@@ -1,0 +1,1926 @@
+!SESSION 2023-07-09 23:07:52.938 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/shrishdeshpande/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:56.339
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:56.693
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:56.784
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:56.788
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.889
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/com.microsoft.java.test.plugin-0.28.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.893
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/com.microsoft.jdtls.ext.core-0.5.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.897
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.cfr-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.901
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.common-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.906
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.fernflower-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.913
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.procyon-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.923
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/io.projectreactor.reactor-core.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.929
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/java.debug.plugin.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.934
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-commons.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.939
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-extension.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.943
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.949
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.953
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.962
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.966
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.972
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.983
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.988
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:57.995
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.000
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.005
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.013
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.017
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.023
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.027
+!MESSAGE Installed reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.reactivestreams.reactive-streams.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.037
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.043
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.reactivestreams.reactive-streams.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.099
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.fernflower-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.118
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.129
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.137
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.160
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-commons.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.193
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/com.microsoft.java.test.plugin-0.28.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.195
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.196
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.239
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/com.microsoft.jdtls.ext.core-0.5.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.242
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.265
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.procyon-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.291
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-extension.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.295
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.296
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.298
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.381
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/java.debug.plugin.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.382
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/io.projectreactor.reactor-core.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.383
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.427
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.cfr-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.428
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.429
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.430
+!MESSAGE Started reference:file:/Users/shrishdeshpande/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.439
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.440
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.441
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.442
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.443
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.444
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.445
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.445
+!MESSAGE Non-Static Commands: [sts.java.addClasspathListener, sts.java.removeClasspathListener]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.446
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.447
+!MESSAGE Non-Static Commands: [sts.java.javadoc]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.448
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.449
+!MESSAGE Non-Static Commands: [sts.java.type]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.450
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.451
+!MESSAGE Non-Static Commands: [sts.java.javadocHoverLink]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.451
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.452
+!MESSAGE Non-Static Commands: [sts.java.location]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.453
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.454
+!MESSAGE Non-Static Commands: [sts.java.search.packages, sts.java.search.types]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.455
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.455
+!MESSAGE Non-Static Commands: [sts.java.hierarchy.supertypes, sts.java.hierarchy.subtypes]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.456
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.457
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.468
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.471
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.521
+!MESSAGE Started org.eclipse.buildship.core 49ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.530
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.554
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.604
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.820
+!MESSAGE Default VM Install changed from  null to net.java.openjdk.jdk-/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:07:58.896
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:08:00.050
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-09 23:08:00.052
+!MESSAGE No previous Gradle project at /Users/shrishdeshpande/DataGripProjects/vimc, it must be synchronized
+!SESSION 2023-07-10 18:05:41.818 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/shrishdeshpande/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:45.344
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:45.712
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:45.810
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:45.815
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.207
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.208
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.209
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.210
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.212
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.213
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.214
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.215
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.216
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.217
+!MESSAGE Non-Static Commands: [sts.java.addClasspathListener, sts.java.removeClasspathListener]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.218
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.220
+!MESSAGE Non-Static Commands: [sts.java.javadoc]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.221
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.222
+!MESSAGE Non-Static Commands: [sts.java.type]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.223
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.224
+!MESSAGE Non-Static Commands: [sts.java.javadocHoverLink]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.225
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.226
+!MESSAGE Non-Static Commands: [sts.java.location]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.227
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.283
+!MESSAGE Non-Static Commands: [sts.java.search.packages, sts.java.search.types]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.285
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.286
+!MESSAGE Non-Static Commands: [sts.java.hierarchy.supertypes, sts.java.hierarchy.subtypes]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.299
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.490
+!MESSAGE ProjectRegistryRefreshJob finished 190ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.547
+!MESSAGE Started org.eclipse.buildship.core 55ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.572
+!MESSAGE RepositoryRegistryUpdateJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.591
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.594
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:47.794
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:48.674
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:05:48.676
+!MESSAGE No previous Gradle project at /Users/shrishdeshpande/DataGripProjects/vimc, it must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:26.759
+!MESSAGE Workspace initialized in 39189ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:26.805
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:26.812
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:26.818
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2023-07-10 18:06:30.775
+!MESSAGE Exception thrown by Java annotation processor org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection@1c2149c1
+!STACK 0
+java.lang.Exception: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:953)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:188)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:524)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:65)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$25(JDTLanguageServer.java:929)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$54(JDTLanguageServer.java:1129)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:447)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getTypeName(TypeUtils.java:309)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getJavaSignature(TypeUtils.java:262)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.compareElement(TypeHandle.java:475)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:465)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:459)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:445)
+	at org.spongepowered.tools.obfuscation.mirror.mapping.MappingMethodResolvable.getSuper(MappingMethodResolvable.java:62)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:214)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getRemappedMethod(ObfuscationDataProvider.java:238)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfMethod(ObfuscationDataProvider.java:226)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjector(AnnotatedMixinElementHandlerInjector.java:243)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjectorTarget(AnnotatedMixinElementHandlerInjector.java:217)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjector(AnnotatedMixinElementHandlerInjector.java:186)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixin.registerInjector(AnnotatedMixin.java:407)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixins.registerInjector(AnnotatedMixins.java:488)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection.processInjectors(MixinObfuscationProcessorInjection.java:107)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection.process(MixinObfuscationProcessorInjection.java:74)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Generic symbol "T" is too complex, exceeded 5 iterations attempting to determine upper bound
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:455)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:445)
+	... 53 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2023-07-10 18:06:30.798
+!MESSAGE Exception thrown by Java annotation processor org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets@7029db98
+!STACK 0
+java.lang.Exception: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:953)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:188)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:524)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:65)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$25(JDTLanguageServer.java:929)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$54(JDTLanguageServer.java:1129)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:447)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getTypeName(TypeUtils.java:309)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getJavaSignature(TypeUtils.java:262)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.compareElement(TypeHandle.java:475)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:465)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:459)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:445)
+	at org.spongepowered.tools.obfuscation.mirror.mapping.MappingMethodResolvable.getSuper(MappingMethodResolvable.java:62)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:214)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getRemappedMethod(ObfuscationDataProvider.java:238)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfMethod(ObfuscationDataProvider.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfEntry(ObfuscationDataProvider.java:170)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow$AnnotatedElementShadow.getObfuscationData(AnnotatedMixinElementHandlerShadow.java:96)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow.registerShadowForTarget(AnnotatedMixinElementHandlerShadow.java:167)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow.registerShadow(AnnotatedMixinElementHandlerShadow.java:162)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixin.registerShadow(AnnotatedMixin.java:401)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixins.registerShadow(AnnotatedMixins.java:469)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets.processShadows(MixinObfuscationProcessorTargets.java:111)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets.process(MixinObfuscationProcessorTargets.java:72)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Generic symbol "T" is too complex, exceeded 5 iterations attempting to determine upper bound
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:455)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:445)
+	... 54 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:31.891
+!MESSAGE Reconciled 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:31.895
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-07-10 18:06:32.537
+!MESSAGE module-info.class [in <default> [in /Users/shrishdeshpande/.gradle/caches/fabric-loom/1.20.1/net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2/mappings.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:32.853
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:32.854
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:32.857
+!MESSAGE Validated 1. Took 768 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:32.861
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:36.467
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:37.755
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:37.756
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:37.758
+!MESSAGE Validated 1. Took 135 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:39.816
+!MESSAGE Reconciled 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:40.598
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:40.600
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:40.601
+!MESSAGE Validated 1. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:42.739
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:43.359
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:43.360
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:43.361
+!MESSAGE Validated 1. Took 115 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:44.374
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:44.881
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:44.882
+!MESSAGE 4 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:44.887
+!MESSAGE Validated 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:46.013
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:46.480
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:46.481
+!MESSAGE 4 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:46.482
+!MESSAGE Validated 1. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:53.337
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:53.749
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:54.235
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:54.236
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:06:54.238
+!MESSAGE Validated 1. Took 82 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:08:24.700
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:08:25.549
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:08:25.550
+!MESSAGE 3 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:08:25.552
+!MESSAGE Validated 1. Took 446 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:11.333
+!MESSAGE Reconciled 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:12.050
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:12.051
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:12.052
+!MESSAGE Validated 1. Took 307 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:17.566
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:18.040
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:18.041
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:18.042
+!MESSAGE Validated 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:18.301
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:09:18.324
+!MESSAGE >> exit
+!SESSION 2023-07-10 18:17:55.007 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/shrishdeshpande/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-10 18:17:56.900
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:17:58.384
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:17:58.731
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:17:58.811
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:17:58.815
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.554
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.555
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.557
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.558
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.559
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.560
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.562
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.563
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.564
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.565
+!MESSAGE Non-Static Commands: [sts.java.addClasspathListener, sts.java.removeClasspathListener]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.566
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.567
+!MESSAGE Non-Static Commands: [sts.java.javadoc]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.568
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.569
+!MESSAGE Non-Static Commands: [sts.java.type]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.570
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.572
+!MESSAGE Non-Static Commands: [sts.java.javadocHoverLink]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.573
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.574
+!MESSAGE Non-Static Commands: [sts.java.location]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.575
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.576
+!MESSAGE Non-Static Commands: [sts.java.search.packages, sts.java.search.types]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.578
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.579
+!MESSAGE Non-Static Commands: [sts.java.hierarchy.supertypes, sts.java.hierarchy.subtypes]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:00.593
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:20.672
+!MESSAGE ProjectRegistryRefreshJob finished 20077ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:20.673
+!MESSAGE Started org.eclipse.buildship.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:20.726
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:21.614
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:22.031
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:23.698
+!MESSAGE Workspace initialized in 2085ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:23.724
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:23.734
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:23.740
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2023-07-10 18:18:26.817
+!MESSAGE Exception thrown by Java annotation processor org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection@7b18216f
+!STACK 0
+java.lang.Exception: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:953)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:188)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:524)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:65)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$25(JDTLanguageServer.java:929)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$54(JDTLanguageServer.java:1129)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:447)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getTypeName(TypeUtils.java:309)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getJavaSignature(TypeUtils.java:262)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.compareElement(TypeHandle.java:475)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:465)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:459)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:445)
+	at org.spongepowered.tools.obfuscation.mirror.mapping.MappingMethodResolvable.getSuper(MappingMethodResolvable.java:62)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:214)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getRemappedMethod(ObfuscationDataProvider.java:238)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfMethod(ObfuscationDataProvider.java:226)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjector(AnnotatedMixinElementHandlerInjector.java:243)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjectorTarget(AnnotatedMixinElementHandlerInjector.java:217)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjector(AnnotatedMixinElementHandlerInjector.java:186)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixin.registerInjector(AnnotatedMixin.java:407)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixins.registerInjector(AnnotatedMixins.java:488)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection.processInjectors(MixinObfuscationProcessorInjection.java:107)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection.process(MixinObfuscationProcessorInjection.java:74)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Generic symbol "T" is too complex, exceeded 5 iterations attempting to determine upper bound
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:455)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:445)
+	... 53 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2023-07-10 18:18:26.843
+!MESSAGE Exception thrown by Java annotation processor org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets@785a9c20
+!STACK 0
+java.lang.Exception: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:953)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:188)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:524)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:65)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$25(JDTLanguageServer.java:929)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$54(JDTLanguageServer.java:1129)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:447)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getTypeName(TypeUtils.java:309)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getJavaSignature(TypeUtils.java:262)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.compareElement(TypeHandle.java:475)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:465)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:459)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:445)
+	at org.spongepowered.tools.obfuscation.mirror.mapping.MappingMethodResolvable.getSuper(MappingMethodResolvable.java:62)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:214)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getRemappedMethod(ObfuscationDataProvider.java:238)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfMethod(ObfuscationDataProvider.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfEntry(ObfuscationDataProvider.java:170)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow$AnnotatedElementShadow.getObfuscationData(AnnotatedMixinElementHandlerShadow.java:96)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow.registerShadowForTarget(AnnotatedMixinElementHandlerShadow.java:167)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow.registerShadow(AnnotatedMixinElementHandlerShadow.java:162)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixin.registerShadow(AnnotatedMixin.java:401)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixins.registerShadow(AnnotatedMixins.java:469)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets.processShadows(MixinObfuscationProcessorTargets.java:111)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets.process(MixinObfuscationProcessorTargets.java:72)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Generic symbol "T" is too complex, exceeded 5 iterations attempting to determine upper bound
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:455)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:445)
+	... 54 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:27.704
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:27.710
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:29.315
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:29.318
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:29.322
+!MESSAGE Validated 1. Took 1014 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:29.437
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:35.909
+!MESSAGE Reconciled 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:37.545
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:37.546
+!MESSAGE 3 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:37.550
+!MESSAGE Validated 1. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:51.345
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:52.288
+!MESSAGE begin problem for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:52.289
+!MESSAGE 1 problems reported for /VimHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:18:52.291
+!MESSAGE Validated 1. Took 93 ms
+!SESSION 2023-07-10 18:30:28.470 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/shrishdeshpande/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-10 18:30:30.333
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:31.700
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:32.049
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:32.155
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:32.160
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.653
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.655
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.656
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.657
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.658
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.659
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.660
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.661
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.661
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.662
+!MESSAGE Non-Static Commands: [sts.java.addClasspathListener, sts.java.removeClasspathListener]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.663
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.664
+!MESSAGE Non-Static Commands: [sts.java.javadoc]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.664
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.665
+!MESSAGE Non-Static Commands: [sts.java.type]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.667
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.668
+!MESSAGE Non-Static Commands: [sts.java.javadocHoverLink]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.669
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.670
+!MESSAGE Non-Static Commands: [sts.java.location]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.671
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.672
+!MESSAGE Non-Static Commands: [sts.java.search.packages, sts.java.search.types]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.673
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.674
+!MESSAGE Non-Static Commands: [sts.java.hierarchy.supertypes, sts.java.hierarchy.subtypes]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:33.691
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:38.450
+!MESSAGE ProjectRegistryRefreshJob finished 4757ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:38.451
+!MESSAGE Started org.eclipse.buildship.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:38.509
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:39.392
+!MESSAGE RepositoryRegistryUpdateJob finished 5ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:39.679
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:41.116
+!MESSAGE Workspace initialized in 1728ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:41.158
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:41.176
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:41.190
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:42.013
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:43.924
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:43.926
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:43.930
+!MESSAGE Validated 1. Took 1311 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:30:44.031
+!MESSAGE >> build jobs finished
+!SESSION 2023-07-10 18:41:20.514 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/shrishdeshpande/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-10 18:41:22.426
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:23.758
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:24.145
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:24.244
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:24.251
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.590
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.591
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.593
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.594
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.596
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.597
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.599
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.602
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.603
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.604
+!MESSAGE Non-Static Commands: [sts.java.addClasspathListener, sts.java.removeClasspathListener]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.605
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.606
+!MESSAGE Non-Static Commands: [sts.java.javadoc]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.608
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.609
+!MESSAGE Non-Static Commands: [sts.java.type]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.610
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.611
+!MESSAGE Non-Static Commands: [sts.java.javadocHoverLink]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.612
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.613
+!MESSAGE Non-Static Commands: [sts.java.location]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.615
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.617
+!MESSAGE Non-Static Commands: [sts.java.search.packages, sts.java.search.types]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.619
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.620
+!MESSAGE Non-Static Commands: [sts.java.hierarchy.supertypes, sts.java.hierarchy.subtypes]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.638
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.780
+!MESSAGE ProjectRegistryRefreshJob finished 139ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.897
+!MESSAGE Started org.eclipse.buildship.core 115ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.918
+!MESSAGE RepositoryRegistryUpdateJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:25.952
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:27.246
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:27.249
+!MESSAGE vimc was modified since last time the workspace was opened, must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:36.633
+!MESSAGE Workspace initialized in 10718ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:36.670
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:36.679
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:36.717
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2023-07-10 18:41:44.519
+!MESSAGE Exception thrown by Java annotation processor org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection@442f4cc
+!STACK 0
+java.lang.Exception: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:953)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:188)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:524)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:65)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$25(JDTLanguageServer.java:929)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$54(JDTLanguageServer.java:1129)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:447)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getTypeName(TypeUtils.java:309)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getJavaSignature(TypeUtils.java:262)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.compareElement(TypeHandle.java:475)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:465)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:459)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:445)
+	at org.spongepowered.tools.obfuscation.mirror.mapping.MappingMethodResolvable.getSuper(MappingMethodResolvable.java:62)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:214)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getRemappedMethod(ObfuscationDataProvider.java:238)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfMethod(ObfuscationDataProvider.java:226)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjector(AnnotatedMixinElementHandlerInjector.java:243)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjectorTarget(AnnotatedMixinElementHandlerInjector.java:217)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector.registerInjector(AnnotatedMixinElementHandlerInjector.java:186)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixin.registerInjector(AnnotatedMixin.java:407)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixins.registerInjector(AnnotatedMixins.java:488)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection.processInjectors(MixinObfuscationProcessorInjection.java:107)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorInjection.process(MixinObfuscationProcessorInjection.java:74)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Generic symbol "T" is too complex, exceeded 5 iterations attempting to determine upper bound
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:455)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:445)
+	... 53 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2023-07-10 18:41:44.537
+!MESSAGE Exception thrown by Java annotation processor org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets@1fad9b51
+!STACK 0
+java.lang.Exception: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:953)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:188)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:524)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:65)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$25(JDTLanguageServer.java:929)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$54(JDTLanguageServer.java:1129)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalArgumentException: Type symbol "T" is too complex
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:447)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getTypeName(TypeUtils.java:309)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getJavaSignature(TypeUtils.java:262)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.compareElement(TypeHandle.java:475)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:465)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:459)
+	at org.spongepowered.tools.obfuscation.mirror.TypeHandle.findMethod(TypeHandle.java:445)
+	at org.spongepowered.tools.obfuscation.mirror.mapping.MappingMethodResolvable.getSuper(MappingMethodResolvable.java:62)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationEnvironment.getObfMethod(ObfuscationEnvironment.java:214)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getRemappedMethod(ObfuscationDataProvider.java:238)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfMethod(ObfuscationDataProvider.java:226)
+	at org.spongepowered.tools.obfuscation.ObfuscationDataProvider.getObfEntry(ObfuscationDataProvider.java:170)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow$AnnotatedElementShadow.getObfuscationData(AnnotatedMixinElementHandlerShadow.java:96)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow.registerShadowForTarget(AnnotatedMixinElementHandlerShadow.java:167)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerShadow.registerShadow(AnnotatedMixinElementHandlerShadow.java:162)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixin.registerShadow(AnnotatedMixin.java:401)
+	at org.spongepowered.tools.obfuscation.AnnotatedMixins.registerShadow(AnnotatedMixins.java:469)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets.processShadows(MixinObfuscationProcessorTargets.java:111)
+	at org.spongepowered.tools.obfuscation.MixinObfuscationProcessorTargets.process(MixinObfuscationProcessorTargets.java:72)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Generic symbol "T" is too complex, exceeded 5 iterations attempting to determine upper bound
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:455)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound0(TypeUtils.java:468)
+	at org.spongepowered.tools.obfuscation.mirror.TypeUtils.getUpperBound(TypeUtils.java:445)
+	... 54 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:44.956
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-07-10 18:41:46.024
+!MESSAGE module-info.class [in <default> [in /Users/shrishdeshpande/DataGripProjects/vimc/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_9_v2/net/fabricmc/fabric-api/fabric-item-api-v1-common/2.1.26+b3afc78b77/fabric-item-api-v1-common-2.1.26+b3afc78b77.jar]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:46.150
+!MESSAGE begin problem for /Vimc.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:46.151
+!MESSAGE 0 problems reported for /Vimc.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:46.154
+!MESSAGE Validated 1. Took 594 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:46.270
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:41:49.590
+!MESSAGE >> shutdown
+!SESSION 2023-07-10 18:42:16.073 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /Users/shrishdeshpande/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-10 18:42:17.624
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:18.819
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:19.122
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:19.200
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:19.204
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.706
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.707
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.708
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.709
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.711
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.712
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.713
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.714
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.715
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.716
+!MESSAGE Non-Static Commands: [sts.java.addClasspathListener, sts.java.removeClasspathListener]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.718
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.719
+!MESSAGE Non-Static Commands: [sts.java.javadoc]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.720
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.721
+!MESSAGE Non-Static Commands: [sts.java.type]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.722
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.723
+!MESSAGE Non-Static Commands: [sts.java.javadocHoverLink]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.724
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.725
+!MESSAGE Non-Static Commands: [sts.java.location]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.728
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.729
+!MESSAGE Non-Static Commands: [sts.java.search.packages, sts.java.search.types]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.730
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.731
+!MESSAGE Non-Static Commands: [sts.java.hierarchy.supertypes, sts.java.hierarchy.subtypes]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:20.746
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:23.909
+!MESSAGE ProjectRegistryRefreshJob finished 3161ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:23.910
+!MESSAGE Started org.eclipse.buildship.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:24.014
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:24.786
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:25.134
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:26.195
+!MESSAGE Workspace initialized in 1410ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:26.228
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:26.232
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:26.237
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:26.808
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:28.043
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:28.044
+!MESSAGE 5 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:28.049
+!MESSAGE Validated 1. Took 640 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:28.151
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:35.791
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:36.815
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:36.816
+!MESSAGE 5 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:36.820
+!MESSAGE Validated 1. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:39.349
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:39.935
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:39.936
+!MESSAGE 5 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:39.939
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:40.489
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:40.869
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:41.335
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:41.337
+!MESSAGE 5 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:41.338
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:45.062
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:45.256
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:45.729
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:45.730
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:45.731
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:49.753
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:50.208
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:50.209
+!MESSAGE 5 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:50.210
+!MESSAGE Validated 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:51.218
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:51.687
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:51.688
+!MESSAGE 5 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:51.689
+!MESSAGE Validated 1. Took 66 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:53.854
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:54.009
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:54.440
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:54.441
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:54.442
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:58.886
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:59.315
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:59.316
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:59.318
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:59.344
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:59.550
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:42:59.825
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:00.261
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:00.262
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:00.263
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:00.737
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:01.173
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:01.174
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:01.175
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:08.327
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:08.646
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:08.771
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:08.772
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:08.773
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:10.466
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:10.897
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:10.898
+!MESSAGE 2 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:10.899
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:11.039
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:11.291
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:11.475
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:11.476
+!MESSAGE 2 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:11.477
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:17.227
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:17.684
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:17.685
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:17.686
+!MESSAGE Validated 1. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:18.772
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:19.004
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:19.206
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:19.207
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:19.208
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:20.938
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:21.379
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:21.380
+!MESSAGE 4 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:21.381
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:22.508
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:22.946
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:22.948
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:22.949
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:23.040
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:23.484
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:23.484
+!MESSAGE 2 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:23.485
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:24.521
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:24.946
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:24.947
+!MESSAGE 1 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:24.948
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:25.016
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:25.207
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:25.633
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:25.634
+!MESSAGE 1 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:25.635
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:33.849
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:34.273
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:34.274
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:34.275
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:34.916
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:35.339
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:35.339
+!MESSAGE 2 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:35.340
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:36.411
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:36.847
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:36.848
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:36.849
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:36.861
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:37.282
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:37.283
+!MESSAGE 2 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:37.284
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:49.193
+!MESSAGE Reconciled 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:50.007
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:50.009
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:50.012
+!MESSAGE Validated 1. Took 408 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:51.424
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:51.848
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:51.849
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:51.849
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:51.954
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:52.388
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:52.389
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:52.390
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:52.555
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:52.980
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:52.981
+!MESSAGE 2 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:52.982
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:54.189
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:54.353
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:54.780
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:54.781
+!MESSAGE 3 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:54.782
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:54.875
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:54.976
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:55.123
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:55.185
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:55.619
+!MESSAGE begin problem for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:55.620
+!MESSAGE 0 problems reported for /VimMode.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:43:55.621
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:44:09.927
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-10 18:44:09.953
+!MESSAGE >> exit
