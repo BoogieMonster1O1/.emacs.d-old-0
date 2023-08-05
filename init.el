@@ -2,6 +2,13 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
+(tool-bar-mode -1)
+
+(use-package timu-macos-theme
+  :ensure t
+  :config
+  (load-theme 'timu-macos t))
+
 (use-package treemacs
   :ensure t
   :defer t
@@ -38,6 +45,8 @@
 (require 'gradle-mode)
 (add-hook 'java-mode-hook '(lambda() (gradle-mode 1)))
 
+(setq inhibit-startup-screen t)
+
 (use-package company)
 
 (use-package lsp-ui
@@ -59,8 +68,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(company lsp-ui lsp-java gradle-mode lsp-treemacs flycheck web-mode treemacs dired-sidebar lsp-mode typescript-mode ## clojure-mode csharp-mode go-mode javaimp json-mode kotlin-mode windresize 
-yaml-mode)))
+   '(flycheck-swift chess meson-mode swift-mode timu-macos-theme company lsp-ui lsp-java gradle-mode lsp-treemacs flycheck web-mode treemacs dired-sidebar lsp-mode typescript-mode ## clojure-mode csharp-mode go-mode javaimp json-mode kotlin-mode windresize yaml-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
