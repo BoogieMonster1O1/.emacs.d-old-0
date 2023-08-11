@@ -1,3 +1,9 @@
 .metadata
 .cache
 /projects
+.DS_Store
+*~
+\#*\#
+*.elc
+.\#*
+.lsp-session-v1
