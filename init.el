@@ -6,6 +6,8 @@
 (require 'elcord)
 (elcord-mode)
 
+(require 'multiple-cursors)
+
 (jdecomp-mode 1)
 (customize-set-variable 'jdecomp-decompiler-type 'cfr)
 (customize-set-variable 'jdecomp-decompiler-paths
@@ -14,12 +16,35 @@
                           (procyon . "~")))
 
 (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(default ((t (:family "SF Mono" :foundry "font-foundry" :slant normal :weight normal :height 100 :width normal)))))
+
+;; (global-aggressive-indent-mode 1)
 
 (use-package lsp-sourcekit
   :after lsp-mode
   :config
   (setq lsp-sourcekit-executable "/usr/bin/sourcekit-lsp"))
+
+
+
+;(use-package lsp-python-ms
+ ; :ensure t
+  ;:init (setq lsp-python-ms-auto-install-server t)
+  ;:hook (python-mode . (lambda ()
+   ;                       (require 'lsp-python-ms)
+    ;                      (lsp))))  ; or lsp-deferred
+
+(use-package lsp-metals
+  :ensure t
+  :custom
+  (lsp-metals-server-args '("-J-Dmetals.allow-multiline-string-formatting=off"
+                            "-J-Dmetals.icons=unicode"))
+  (lsp-metals-enable-semantic-highlighting t)
+  :hook (scala-mode . lsp))
 
 (use-package timu-macos-theme
   :ensure t
@@ -91,10 +116,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(git-modes elcord atom-dark-theme atom-one-dark-theme jdecomp swift3-mode lsp-sourcekit flycheck-swift chess meson-mode swift-mode timu-macos-theme company lsp-ui lsp-java gradle-mode lsp-treemacs flycheck web-mode treemacs dired-sidebar lsp-mode typescript-mode ## clojure-mode csharp-mode go-mode javaimp json-mode kotlin-mode windresize yaml-mode)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+   '(lsp-python-ms lsp-javacomp lsp-metals aggressive-indent multiple-cursors git-modes elcord atom-dark-theme atom-one-dark-theme jdecomp swift3-mode lsp-sourcekit flycheck-swift chess meson-mode swift-mode timu-macos-theme company lsp-ui lsp-java gradle-mode lsp-treemacs flycheck web-mode treemacs dired-sidebar lsp-mode typescript-mode ## clojure-mode csharp-mode go-mode javaimp json-mode kotlin-mode windresize yaml-mode)))
+
